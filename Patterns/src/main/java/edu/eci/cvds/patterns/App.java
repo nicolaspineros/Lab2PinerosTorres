@@ -8,6 +8,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+		String[] nombre = args;
+		String aux = "";
+		for(int i = 0; i<nombre.length; i++){
+			aux = aux+nombre[i]+" ";
+		}
+        System.out.println( "Hello "+aux+"!");
     }
 }
