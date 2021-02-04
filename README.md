@@ -9,3 +9,11 @@
 # Compilar y ejecutar 
 
 -objetivo del parametro package: tomar el código compilado y empaquetarlo en su formato distribuible, como un JAR.
+
+# Esqueleto de la aplicacion
+
+instrucciones
+- sin parametros: se muestra mensaje de "Parameter of type RegularShapeType is required" 
+- Parametro qwerty: no es un parametro valido de RegularShapeType
+- Parametro pentagon: a pesar de ser una de las figuras permitidas al no tener una sintaxis exacta, en este caso no empezar con mayuscula (Pentagon)
+- Parametro Hexagon: esta instruccion si se ejecuta correctamente y coincide la sintaxis y el numero de lados 
